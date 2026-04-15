@@ -1,0 +1,48 @@
+# Random Seed for reproducibility
+random_seed: 42
+
+# Model Loading Configuration
+model_loading:
+  device_map: "auto"
+  trust_remote_code: true
+  torch_dtype: "bfloat16"
+  low_cpu_mem_usage: true
+
+# Supported VLM Models
+supported_models:
+    llava:
+      - "llava-hf/llava-v1.6-mistral-7b-hf"
+      - "llava-hf/llama3-llava-next-8b-hf"
+      - "chaoyinshe/llava-med-v1.5-mistral-7b-hf"
+  
+    qwen:
+     - "Qwen/Qwen2.5-VL-3B-Instruct"
+     - "Qwen/Qwen2.5-VL-7B-Instruct"
+     - "Qwen/Qwen2.5-VL-32B-Instruct"
+
+     - "Qwen/Qwen3-VL-2B-Instruct"
+     - "Qwen/Qwen3-VL-4B-Instruct"
+     - "Qwen/Qwen3-VL-8B-Instruct"
+    
+     - "lingshu-medical-mllm/Lingshu-7B"
+     - "lingshu-medical-mllm/Lingshu-32B"
+  
+    internvl:
+      - "OpenGVLab/InternVL3_5-2B"
+      - "OpenGVLab/InternVL3_5-8B"
+      - "OpenGVLab/InternVL3_5-14B"
+  
+    medgemma:
+       - "google/medgemma-4b-it"
+       - "google/medgemma-27b-it"
+
+# Data Paths
+data_paths:
+  images_dir: "data/MediMeta-C"
+  output_dir: "outputs"
+  analysis_dir: "analysis"
+
+# Logging Configuration
+logging:
+  log_level: "INFO"  # Options: "DEBUG", "INFO", "WARNING", "ERROR"
+  log_format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
