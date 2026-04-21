@@ -6,4 +6,8 @@ We present a comprehensive benchmark using the MediMeta-C dataset to evaluate ho
 - (3) How textual biases related to demographics, expertise, infrastructure, and institution inappropriately influence quality scores. By characterizing these vulnerabilities and establishing performance baselines across medical imaging modalities, we identify key challenges that must be addressed for safe clinical deployment of VLMs in automated quality assessment.
 
 
+![alt text](figures/overall_vlm_as_a_judge_framework_no_bias.png)
+![alt text](figures/overall_vlm_as_a_judge_framework_with_bias.png)
+![alt text](figures/scores_clean_radar_chart.png)
+![alt text](figures/average_per_corruption.png)
 
