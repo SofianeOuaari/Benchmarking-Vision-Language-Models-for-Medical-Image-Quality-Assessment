@@ -1,0 +1,46 @@
+# Core PyTorch deps
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+
+# HF / LLM deps
+transformers>=4.57.1
+accelerate
+bitsandbytes
+safetensors
+sentencepiece
+timm
+qwen-vl-utils
+huggingface-hub
+
+# Performance / CUDA-related Python deps
+triton
+
+# Array / science deps
+numpy
+scipy
+pandas
+zarr
+tables
+nibabel
+einops
+matplotlib
+plotly
+
+# Vision & image
+pillow
+opencv-contrib-python-headless
+scikit-image
+imgaug
+kaleido
+seaborn 
+
+# Config
+hydra-core
+omegaconf
+pyyaml
+
+# Else
+scikit-learn
+tqdm
+tensorboardX
