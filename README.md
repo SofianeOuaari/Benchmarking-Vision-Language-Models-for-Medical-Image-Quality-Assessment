@@ -1,4 +1,4 @@
-# Benchmarking Vision-Language Models for Medical Image Quality Assessment
+# Assessing VLM Reliability for Medical Image Quality Evaluation Under Corruption and Bias
 
 We present a benchmark using the MediMeta-C dataset to evaluate how VLMs assess medical image quality in a zero-shot setting, across seven corruption types and five severity levels. The study investigates three dimensions: VLM sensitivity to specific image degradation patterns; how corruptions alter embedding space geometry and its relationship to quality perception; and how textual biases related to demographics, expertise, infrastructure, and institution inappropriately influence quality scores. By characterizing these vulnerabilities and establishing baselines across medical imaging modalities, we identify key challenges for safe clinical deployment of VLMs in automated quality assessment.
 
